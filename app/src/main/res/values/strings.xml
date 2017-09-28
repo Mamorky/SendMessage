@@ -5,5 +5,5 @@
     <string name="txvUser">Usuario</string>
     <string name="txvMessage">Mensaje: </string>
     <string name="btnOK">Enviar</string>
-    <string name="txvViewUser">Un usuario te ha mandado el mensaje</string>
+    <string name="txvViewUser">El usuario <b>%1$s</b> te ha mandado el siguiente mensaje:</string>
 </resources>

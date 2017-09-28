@@ -57,8 +57,7 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="52dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:onClick="getOnClicK"/>
+        app:layout_constraintLeft_toLeftOf="parent"/>
 
     <EditText
         android:id="@+id/edtMessage"
