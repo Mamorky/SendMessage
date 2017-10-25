@@ -53,8 +53,31 @@ public class SendMessageActivity extends AppCompatActivity {
                                      }
                                  }
         );
+        Log.d("com.example.sendmessage","SendMessage: OnCreate");
+    }
 
+    @Override
+    protected void onStart(){
+        super.onStart();
+        Log.d("com.example.sendmessage","SendMessage: OnStart");
+    }
 
+    @Override
+    protected void onResume(){
+        super.onResume();
+        Log.d("com.example.sendmessage","SendMessage: OnResume");
+    }
+
+    @Override
+    protected void onStop(){
+        super.onStop();
+        Log.d("com.example.sendmessage","SendMessage: OnStop");
+    }
+
+    @Override
+    protected void onPause(){
+        super.onPause();
+        Log.d("com.example.sendmessage","SendMessage: OnPause");
     }
 
     /*public void getOnClick(View view)

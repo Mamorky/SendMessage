@@ -6,6 +6,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -39,6 +40,30 @@ public class ViewMessageActivity extends AppCompatActivity {
 
         //Podriamos ahorranos pasos haciendo lo siguiente lo siguiente
         //txvViewMessage.setText(getIntent().getExtras().getString("message"));
+        Log.d("com.example.sendmessage","SendMessage: OnCreate");
     }
 
+    @Override
+    protected void onStart(){
+        super.onStart();
+        Log.d("com.example.sendmessage","SendMessage: OnStart");
+    }
+
+    @Override
+    protected void onResume(){
+        super.onResume();
+        Log.d("com.example.sendmessage","SendMessage: OnResume");
+    }
+
+    @Override
+    protected void onStop(){
+        super.onStop();
+        Log.d("com.example.sendmessage","SendMessage: OnStop");
+    }
+
+    @Override
+    protected void onPause(){
+        super.onPause();
+        Log.d("com.example.sendmessage","SendMessage: OnPause");
+    }
 }
