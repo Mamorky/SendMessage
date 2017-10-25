@@ -40,30 +40,30 @@ public class ViewMessageActivity extends AppCompatActivity {
 
         //Podriamos ahorranos pasos haciendo lo siguiente lo siguiente
         //txvViewMessage.setText(getIntent().getExtras().getString("message"));
-        Log.d("com.example.sendmessage","SendMessage: OnCreate");
+        Log.d("com.example.sendmessage","ViewMessage: OnCreate");
     }
 
     @Override
     protected void onStart(){
         super.onStart();
-        Log.d("com.example.sendmessage","SendMessage: OnStart");
+        Log.d("com.example.sendmessage","ViewMessage: OnStart");
     }
 
     @Override
     protected void onResume(){
         super.onResume();
-        Log.d("com.example.sendmessage","SendMessage: OnResume");
+        Log.d("com.example.sendmessage","ViewMessage: OnResume");
     }
 
     @Override
     protected void onStop(){
         super.onStop();
-        Log.d("com.example.sendmessage","SendMessage: OnStop");
+        Log.d("com.example.sendmessage","ViewMessage: OnStop");
     }
 
     @Override
     protected void onPause(){
         super.onPause();
-        Log.d("com.example.sendmessage","SendMessage: OnPause");
+        Log.d("com.example.sendmessage","ViewMessage: OnPause");
     }
 }
